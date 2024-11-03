@@ -1,13 +1,13 @@
 function findAccountById(accounts, findingId) {
   // YOUR SOLUTION HERE
-  // Hint: You can use the [`find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) method here.
+  // Hint: You can use the [`find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) method here. 
 
   return accounts.find(({ id }) => id === findingId);
 }
 
 function sortAccountsByLastName(accounts) {
   // YOUR SOLUTION HERE
-  // Hint: You can use the [`sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) method here.
+  // Hint: You can use the [`sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) method here. 
   return accounts.sort((a, b) => {
     const nameA = a.name.last.toUpperCase(); // ignore upper and lowercase
     const nameB = b.name.last.toUpperCase(); // ignore upper and lowercase
